@@ -2,14 +2,14 @@
 
 
 def fizzbuzz():
-    #Print numbers from 1 to 100 with FizzBuzz rules
-    for num in range(1, 101):  # Loop from 1 to 100
-        if num % 3 == 0 and num % 5 == 0:  # Check if num is divisible by both 3 and 5
+    # Print numbers from 1 to 100 with FizzBuzz rules
+    for num in range(1, 101):
+        if num % 3 == 0 and num % 5 == 0:  
             print("FizzBuzz", end=" ")
-        elif num % 3 == 0:  # Check if num is divisible by 3
+        elif num % 3 == 0:  
             print("Fizz", end=" ")
-        elif num % 5 == 0:  # Check if num is divisible by 5
+        elif num % 5 == 0:  
             print("Buzz", end=" ")
-        else:  # If none of the above conditions are met
+        else:  
             print(num, end=" ")
-    print("")  # Print newline after all numbers are printed
+    print("")  
