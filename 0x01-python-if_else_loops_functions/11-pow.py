@@ -2,4 +2,4 @@
 
 def pow(a, b):
     # Computes a to power of b
-    return (abs(a ^ b))
+    return abs(abs(a) ^ abs(b))
